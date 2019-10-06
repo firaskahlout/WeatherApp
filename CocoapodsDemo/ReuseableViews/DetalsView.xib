@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetalsViewController" customModule="CocoapodsDemo" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="foM-vm-nc8">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8wu-Dn-nPA">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="41"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5VN-E4-8Ba">
+                            <rect key="frame" x="8" y="0.0" width="32" height="41"/>
+                            <state key="normal" image="back"/>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="5VN-E4-8Ba" firstAttribute="top" secondItem="8wu-Dn-nPA" secondAttribute="top" id="B7u-av-Uod"/>
+                        <constraint firstItem="5VN-E4-8Ba" firstAttribute="leading" secondItem="8wu-Dn-nPA" secondAttribute="leading" constant="8" id="SFf-Ss-2WA"/>
+                        <constraint firstAttribute="bottom" secondItem="5VN-E4-8Ba" secondAttribute="bottom" id="gMY-JT-kKQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="8wu-Dn-nPA" firstAttribute="trailing" secondItem="48q-Ne-ABa" secondAttribute="trailing" id="0gi-Nu-09m"/>
+                <constraint firstItem="48q-Ne-ABa" firstAttribute="bottom" secondItem="8wu-Dn-nPA" secondAttribute="bottom" id="UpL-17-eU3"/>
+                <constraint firstItem="8wu-Dn-nPA" firstAttribute="top" secondItem="foM-vm-nc8" secondAttribute="top" id="bEM-bR-qV5"/>
+                <constraint firstItem="8wu-Dn-nPA" firstAttribute="leading" secondItem="48q-Ne-ABa" secondAttribute="leading" id="lbo-UB-cub"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="48q-Ne-ABa"/>
+            <point key="canvasLocation" x="137.68115942028987" y="262.16517857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="32" height="32"/>
+    </resources>
+</document>
